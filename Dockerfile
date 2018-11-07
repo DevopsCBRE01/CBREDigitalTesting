@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER CBRE Digital Spain "jignacio.gutierrez@cbre.com"
+MAINTAINER CBREDigitalSpain "jignacio.gutierrez@cbre.com"
 RUN apt-get update
 RUN apt-get install -y nginx
 VOLUME /usr/share/nginx/html/
