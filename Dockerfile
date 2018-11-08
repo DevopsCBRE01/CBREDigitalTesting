@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:14.04
 MAINTAINER CBREDigital Spain "jignacio.gutierrez@cbre.com"
 RUN apt-get update
 RUN apt-get install -y nginx
