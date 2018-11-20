@@ -1,6 +1,6 @@
 FROM php:7-fpm
 
-LABEL maintainer="GhazanfarMir@gmail.com"
+MAINTAINER CBREDigitalSpain "jignacio.gutierrez@cbre.com"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		libfreetype6-dev \
