@@ -1,6 +1,3 @@
 FROM nginx
-
-LABEL maintainer="GhazanfarMir@gmail.com"
-
-RUN apt-get update \
-    && apt-get install -y procps vim
+MAINTAINER CBREDigitalSpain "jignacio.gutierrez@cbre.com"
+RUN apt-get install -y nginx
